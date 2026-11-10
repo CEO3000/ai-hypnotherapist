@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Sign in</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script type="module" src="/static/sign-in.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <span class="brand">AI Hypnotherapist</span>
+  </header>
+  <main class="container sign-in">
+    <h1>Practice sign-in</h1>
+    <p class="muted">For the practice only. Clients don't need to sign in: your private link to your session is in
+      your email.</p>
+    <form class="card" id="sign-in" novalidate>
+      <label for="email">Email</label>
+      <input type="email" id="email" autocomplete="username" maxlength="200" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" autocomplete="current-password" maxlength="200" required>
+      <div class="robot-check">
+        <label class="check" for="robot">
+          <input type="checkbox" id="robot">
+          <span>I'm not a robot</span>
+        </label>
+        <span class="muted small" id="robot-status" role="status"></span>
+      </div>
+      <div class="error hidden" id="error" role="alert"></div>
+      <button type="submit" id="submit" disabled>Sign in</button>
+    </form>
+    <p><a class="muted small" href="/">Back to the AI Hypnotherapist</a></p>
+  </main>
+</body>
+</html>

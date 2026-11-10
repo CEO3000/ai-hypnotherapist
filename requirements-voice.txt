@@ -1,0 +1,14 @@
+# Optional: the practice voice (a real person's recorded voice, generated on this computer). All free for any use,
+# including in released apps: pocket-tts (MIT; model weights CC BY 4.0, credited in the app), torch (BSD),
+# python-stretch / Signalsmith Stretch (MIT) for the session's slower pace. Without these the apps use the
+# device's own voice.
+#   .venv\Scripts\python.exe -m pip install -r requirements-voice.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+pocket-tts[audio]==3.3.0
+torch==2.14.0
+python-stretch==0.3.1
+
+# Speech to text for the client's spoken answers, by SYSTRAN's faster-whisper (MIT licence; the model
+# weights come from OpenAI's Whisper, MIT licence). Downloaded on first use and run on this computer.
+# Without it the apps fall back to the browser's own speech recognition.
+faster-whisper==1.2.1

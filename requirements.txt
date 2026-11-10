@@ -1,0 +1,15 @@
+anthropic==1.8.0
+fastapi==0.141.1
+uvicorn==0.54.0
+python-dotenv==1.2.3
+snowballstemmer==3.1.1
+pydantic==2.13.5
+numpy==2.5.3
+tzdata==2026.4  # UK time on receipts (Windows has no time zone database)
+reportlab==5.0.1  # the consultation PDF sent with a hypnotherapist request (BSD licence; brings Pillow, MIT-CMU)
+pypdf==6.19.0  # reads the text of books the practice adds in the admin panel (BSD licence)
+stripe==15.6.1  # card payments (MIT licence; brings requests, Apache-2.0)
+
+# tests
+pytest==9.1.1
+httpx==0.28.1

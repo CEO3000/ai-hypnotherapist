@@ -1,0 +1,195 @@
+{
+  "version": "2026-10-04",
+  "outcome_precedence": [
+    "crisis",
+    "decline_refer",
+    "ineligible",
+    "not_now",
+    "human_only",
+    "clear"
+  ],
+  "questions": [
+    {
+      "id": "age_18_plus",
+      "kind": "question",
+      "trigger_answer": false,
+      "outcome": "ineligible",
+      "rationale": "Platform accepts adults only; screening-and-safety.md requires documented guardian consent for minors.",
+      "text": {
+        "en": "Are you 18 years of age or older?",
+        "de": "Sind Sie 18 Jahre oder älter?",
+        "fr": "Avez-vous 18 ans ou plus ?",
+        "es": "¿Tiene 18 años o más?"
+      }
+    },
+    {
+      "id": "hypnotherapist_issue",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "human_only",
+      "rationale": "Clinician instruction 2026-10-04: PTSD, phobias, stuttering, migraine headaches and panic attacks need regression work, so the practice's qualified hypnotherapist works with them himself (asked before payment so no consultation is needed).",
+      "text": {
+        "en": "Is the main thing you want help with post-traumatic stress (PTSD), a phobia, stuttering, migraine headaches or panic attacks?",
+        "de": "Geht es bei dem, wobei Sie hauptsächlich Hilfe möchten, um eine posttraumatische Belastungsstörung (PTBS), eine Phobie, Stottern, Migräne oder Panikattacken?",
+        "fr": "Ce pour quoi vous souhaitez surtout de l'aide est-il un stress post-traumatique (TSPT), une phobie, le bégaiement, des migraines ou des attaques de panique ?",
+        "es": "¿Lo que principalmente quiere tratar es estrés postraumático (TEPT), una fobia, tartamudez, migrañas o ataques de pánico?"
+      }
+    },
+    {
+      "id": "suicidal_thoughts",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "crisis",
+      "rationale": "Current crisis/suicidality is a hard stop (screening-and-safety.md; clinician instruction 2026-09-25).",
+      "text": {
+        "en": "In the past month, have you had any thoughts of ending your life or of harming yourself?",
+        "de": "Hatten Sie im vergangenen Monat Gedanken daran, Ihr Leben zu beenden oder sich selbst zu verletzen?",
+        "fr": "Au cours du dernier mois, avez-vous eu des pensées de mettre fin à votre vie ou de vous faire du mal ?",
+        "es": "En el último mes, ¿ha tenido pensamientos de acabar con su vida o de hacerse daño?"
+      }
+    },
+    {
+      "id": "self_harm_recent",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "crisis",
+      "rationale": "Recent self-harm or suicide attempt/plan is a hard stop (clinician instruction 2026-09-25).",
+      "text": {
+        "en": "In the past three months, have you deliberately harmed yourself, or made any plan or attempt to end your life?",
+        "de": "Haben Sie sich in den vergangenen drei Monaten absichtlich selbst verletzt oder einen Plan oder Versuch unternommen, Ihr Leben zu beenden?",
+        "fr": "Au cours des trois derniers mois, vous êtes-vous fait du mal volontairement, ou avez-vous fait un projet ou une tentative pour mettre fin à votre vie ?",
+        "es": "En los últimos tres meses, ¿se ha hecho daño a propósito, o ha hecho algún plan o intento de acabar con su vida?"
+      }
+    },
+    {
+      "id": "epilepsy",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "decline_refer",
+      "rationale": "Clinician instruction 2026-09-25: not accepted. screening-and-safety.md requires clinician review of induction choice, which a self-guided session cannot provide.",
+      "text": {
+        "en": "Have you been diagnosed with epilepsy or any seizure disorder?",
+        "de": "Wurde bei Ihnen Epilepsie oder eine andere Anfallserkrankung diagnostiziert?",
+        "fr": "Avez-vous reçu un diagnostic d'épilepsie ou de tout autre trouble convulsif ?",
+        "es": "¿Le han diagnosticado epilepsia o cualquier otro trastorno convulsivo?"
+      }
+    },
+    {
+      "id": "psychosis_bipolar",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "decline_refer",
+      "rationale": "Psychosis, schizophrenia spectrum and mania are stop conditions (screening-and-safety.md; clinician instruction 2026-09-25).",
+      "text": {
+        "en": "Have you ever been diagnosed with psychosis, schizophrenia, schizoaffective disorder or bipolar disorder?",
+        "de": "Wurde bei Ihnen jemals eine Psychose, Schizophrenie, schizoaffektive Störung oder bipolare Störung diagnostiziert?",
+        "fr": "Avez-vous déjà reçu un diagnostic de psychose, de schizophrénie, de trouble schizo-affectif ou de trouble bipolaire ?",
+        "es": "¿Alguna vez le han diagnosticado psicosis, esquizofrenia, trastorno esquizoafectivo o trastorno bipolar?"
+      }
+    },
+    {
+      "id": "hallucinations_now",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "decline_refer",
+      "rationale": "Screens for undiagnosed active psychosis (screening-and-safety.md: active psychosis).",
+      "text": {
+        "en": "Are you currently seeing or hearing things that other people don't?",
+        "de": "Sehen oder hören Sie derzeit Dinge, die andere Menschen nicht wahrnehmen?",
+        "fr": "Voyez-vous ou entendez-vous actuellement des choses que les autres ne perçoivent pas ?",
+        "es": "¿Ve u oye actualmente cosas que otras personas no perciben?"
+      }
+    },
+    {
+      "id": "dissociative_disorder",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "decline_refer",
+      "rationale": "Severe dissociative disorder without a treating specialist is a stop condition (screening-and-safety.md).",
+      "text": {
+        "en": "Have you been diagnosed with a dissociative disorder, such as dissociative identity disorder (DID)?",
+        "de": "Wurde bei Ihnen eine dissoziative Störung diagnostiziert, zum Beispiel eine dissoziative Identitätsstörung (DIS)?",
+        "fr": "Avez-vous reçu un diagnostic de trouble dissociatif, comme le trouble dissociatif de l'identité (TDI) ?",
+        "es": "¿Le han diagnosticado un trastorno disociativo, como el trastorno de identidad disociativo (TID)?"
+      }
+    },
+    {
+      "id": "heart_condition",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "decline_refer",
+      "rationale": "Current severe untreated cardiac condition (screening-and-safety.md).",
+      "text": {
+        "en": "Do you have a serious heart condition that is not currently being treated or monitored by a doctor?",
+        "de": "Haben Sie eine ernsthafte Herzerkrankung, die derzeit nicht ärztlich behandelt oder überwacht wird?",
+        "fr": "Avez-vous une maladie cardiaque grave qui n'est pas actuellement traitée ou suivie par un médecin ?",
+        "es": "¿Tiene una enfermedad cardíaca grave que actualmente no esté tratada ni controlada por un médico?"
+      }
+    },
+    {
+      "id": "unchecked_symptom",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "decline_refer",
+      "rationale": "Presenting issue may mask an undiagnosed medical condition; medical evaluation first (screening-and-safety.md).",
+      "text": {
+        "en": "Is the main thing you want help with a physical symptom (for example pain, or an unexplained change in weight) that has not yet been checked by a doctor?",
+        "de": "Ist das Hauptanliegen, bei dem Sie Hilfe möchten, ein körperliches Symptom (zum Beispiel Schmerzen oder eine unerklärliche Gewichtsveränderung), das noch nicht von einem Arzt untersucht wurde?",
+        "fr": "Ce pour quoi vous souhaitez principalement de l'aide est-il un symptôme physique (par exemple une douleur, ou un changement de poids inexpliqué) qui n'a pas encore été examiné par un médecin ?",
+        "es": "¿Lo principal en lo que quiere ayuda es un síntoma físico (por ejemplo, dolor o un cambio de peso sin explicación) que todavía no ha revisado un médico?"
+      }
+    },
+    {
+      "id": "pregnant",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "human_only",
+      "rationale": "Pregnancy needs imagery restrictions and possible OB clearance (screening-and-safety.md); needs a human practitioner.",
+      "text": {
+        "en": "Are you pregnant?",
+        "de": "Sind Sie schwanger?",
+        "fr": "Êtes-vous enceinte ?",
+        "es": "¿Está embarazada?"
+      }
+    },
+    {
+      "id": "intoxicated",
+      "kind": "question",
+      "trigger_answer": true,
+      "outcome": "not_now",
+      "rationale": "Hypnotherapy should not take place under the influence of alcohol or drugs.",
+      "text": {
+        "en": "Are you currently under the influence of alcohol or recreational drugs?",
+        "de": "Stehen Sie derzeit unter dem Einfluss von Alkohol oder Drogen?",
+        "fr": "Êtes-vous actuellement sous l'influence de l'alcool ou de drogues ?",
+        "es": "¿Está actualmente bajo los efectos del alcohol o de drogas?"
+      }
+    },
+    {
+      "id": "consent_process",
+      "kind": "consent",
+      "trigger_answer": false,
+      "outcome": "ineligible",
+      "rationale": "Informed consent to hypnosis as a process is required (screening-and-safety.md).",
+      "text": {
+        "en": "I understand that hypnotherapy is a guided state of focused relaxation, that I stay aware and in control throughout, and that it is not a substitute for medical or psychiatric care. I consent to take part.",
+        "de": "Mir ist bewusst, dass Hypnotherapie ein angeleiteter Zustand konzentrierter Entspannung ist, dass ich dabei die ganze Zeit wach bleibe und die Kontrolle behalte und dass sie keinen Ersatz für eine medizinische oder psychiatrische Behandlung darstellt. Ich willige ein, daran teilzunehmen.",
+        "fr": "Je comprends que l'hypnothérapie est un état guidé de relaxation concentrée, que je reste conscient et maître de moi tout au long de la séance, et qu'elle ne remplace pas des soins médicaux ou psychiatriques. J'accepte d'y participer.",
+        "es": "Entiendo que la hipnoterapia es un estado guiado de relajación concentrada, que permanezco consciente y en control en todo momento, y que no sustituye la atención médica o psiquiátrica. Doy mi consentimiento para participar."
+      }
+    },
+    {
+      "id": "consent_data",
+      "kind": "consent",
+      "trigger_answer": false,
+      "outcome": "ineligible",
+      "rationale": "Explicit consent to AI processing and storage of health information. WORDING MUST BE REVIEWED BY A DATA-PROTECTION ADVISER BEFORE LAUNCH.",
+      "text": {
+        "en": "I understand that this consultation is carried out by an AI assistant trained in the techniques of well-known hypnotherapists, which uses my answers to run the consultation and prepare my session. My answers are stored securely and may be reviewed by a qualified hypnotherapist. I consent to this.",
+        "de": "Mir ist bewusst, dass diese Beratung von einem KI-Assistenten durchgeführt wird, der in den Techniken bekannter Hypnotherapeuten geschult wurde und meine Antworten nutzt, um die Beratung durchzuführen und meine Sitzung vorzubereiten. Meine Antworten werden sicher gespeichert und können von einem qualifizierten Hypnotherapeuten eingesehen werden. Ich willige darin ein.",
+        "fr": "Je comprends que cette consultation est menée par un assistant d'intelligence artificielle formé aux techniques d'hypnothérapeutes reconnus, qui utilise mes réponses pour mener la consultation et préparer ma séance. Mes réponses sont conservées en toute sécurité et peuvent être consultées par un hypnothérapeute qualifié. J'y consens.",
+        "es": "Entiendo que esta consulta la realiza un asistente de inteligencia artificial formado en las técnicas de hipnoterapeutas reconocidos, que utiliza mis respuestas para llevar a cabo la consulta y preparar mi sesión. Mis respuestas se guardan de forma segura y pueden ser revisadas por un hipnoterapeuta cualificado. Doy mi consentimiento."
+      }
+    }
+  ]
+}

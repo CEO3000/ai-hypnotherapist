@@ -1,0 +1,328 @@
+{
+  "verified_on": "2026-09-25",
+  "verification_note": "GB checked against samaritans.org, nhs.uk, giveusashout.org and findahelpline.com on 2026-09-25. DE, AT, CH, FR and ES (added 2026-10-01 for the German, French and Spanish versions) are NOT yet verified: check each number on the service's own website (telefonseelsorge.de, telefonseelsorge.at, 143.ch, 3114.fr, sos-amitie.com, sanidad.gob.es (024), telefonodelaesperanza.org) before launch. Re-verify everything at least every 6 months.",
+  "countries": {
+    "GB": {
+      "name": {
+        "en": "United Kingdom",
+        "de": "Vereinigtes Königreich",
+        "fr": "Royaume-Uni",
+        "es": "Reino Unido"
+      },
+      "resources": [
+        {
+          "name": {
+            "en": "Emergency services",
+            "de": "Notruf",
+            "fr": "Services d'urgence",
+            "es": "Servicios de emergencia"
+          },
+          "detail": {
+            "en": "If your life is at risk right now, or you don't feel you can keep yourself safe, call 999 or go to A&E.",
+            "de": "Wenn Ihr Leben gerade in Gefahr ist oder Sie das Gefühl haben, nicht für Ihre Sicherheit sorgen zu können, rufen Sie 999 an oder gehen Sie in die Notaufnahme (A&E).",
+            "fr": "Si votre vie est en danger en ce moment, ou si vous ne vous sentez pas capable de rester en sécurité, appelez le 999 ou rendez-vous aux urgences (A&E).",
+            "es": "Si su vida corre peligro ahora mismo, o siente que no puede mantenerse a salvo, llame al 999 o vaya a urgencias (A&E)."
+          }
+        },
+        {
+          "name": {
+            "en": "Samaritans",
+            "de": "Samaritans",
+            "fr": "Samaritans",
+            "es": "Samaritans"
+          },
+          "detail": {
+            "en": "Call 116 123: free from any phone, open 24 hours a day, every day.",
+            "de": "Rufen Sie 116 123 an: kostenlos von jedem Telefon, rund um die Uhr, jeden Tag (auf Englisch).",
+            "fr": "Appelez le 116 123 : gratuit depuis n'importe quel téléphone, 24 heures sur 24, tous les jours (en anglais).",
+            "es": "Llame al 116 123: gratis desde cualquier teléfono, las 24 horas, todos los días (en inglés)."
+          }
+        },
+        {
+          "name": {
+            "en": "NHS 111",
+            "de": "NHS 111",
+            "fr": "NHS 111",
+            "es": "NHS 111"
+          },
+          "detail": {
+            "en": "For urgent mental health help, call 111 and select the mental health option.",
+            "de": "Für dringende Hilfe bei psychischen Problemen rufen Sie 111 an und wählen Sie die Option für psychische Gesundheit.",
+            "fr": "Pour une aide urgente en santé mentale, appelez le 111 et choisissez l'option santé mentale.",
+            "es": "Para ayuda urgente de salud mental, llame al 111 y elija la opción de salud mental."
+          }
+        },
+        {
+          "name": {
+            "en": "Shout",
+            "de": "Shout",
+            "fr": "Shout",
+            "es": "Shout"
+          },
+          "detail": {
+            "en": "Text SHOUT to 85258: a free, confidential, 24/7 text service.",
+            "de": "Senden Sie SHOUT per SMS an 85258: ein kostenloser, vertraulicher SMS-Dienst rund um die Uhr (auf Englisch).",
+            "fr": "Envoyez SHOUT par SMS au 85258 : un service gratuit et confidentiel par SMS, 24 h/24 et 7 j/7 (en anglais).",
+            "es": "Envíe SHOUT por SMS al 85258: un servicio de mensajes gratuito y confidencial, las 24 horas (en inglés)."
+          }
+        }
+      ]
+    },
+    "DE": {
+      "name": {
+        "en": "Germany",
+        "de": "Deutschland",
+        "fr": "Allemagne",
+        "es": "Alemania"
+      },
+      "resources": [
+        {
+          "name": {
+            "en": "Emergency services",
+            "de": "Notruf",
+            "fr": "Services d'urgence",
+            "es": "Servicios de emergencia"
+          },
+          "detail": {
+            "en": "If your life is at risk right now, call 112 or go to your nearest emergency department.",
+            "de": "Wenn Ihr Leben gerade in Gefahr ist, rufen Sie 112 an oder gehen Sie in die nächste Notaufnahme.",
+            "fr": "Si votre vie est en danger en ce moment, appelez le 112 ou rendez-vous aux urgences les plus proches.",
+            "es": "Si su vida corre peligro ahora mismo, llame al 112 o vaya al servicio de urgencias más cercano."
+          }
+        },
+        {
+          "name": {
+            "en": "TelefonSeelsorge",
+            "de": "TelefonSeelsorge",
+            "fr": "TelefonSeelsorge",
+            "es": "TelefonSeelsorge"
+          },
+          "detail": {
+            "en": "Call 0800 111 0 111 or 0800 111 0 222: free, anonymous, open 24 hours a day (in German). Chat and email at online.telefonseelsorge.de.",
+            "de": "Rufen Sie 0800 111 0 111 oder 0800 111 0 222 an: kostenlos, anonym, rund um die Uhr erreichbar. Chat und E-Mail unter online.telefonseelsorge.de.",
+            "fr": "Appelez le 0800 111 0 111 ou le 0800 111 0 222 : gratuit, anonyme, 24 heures sur 24 (en allemand). Chat et e-mail sur online.telefonseelsorge.de.",
+            "es": "Llame al 0800 111 0 111 o al 0800 111 0 222: gratuito, anónimo, las 24 horas (en alemán). Chat y correo en online.telefonseelsorge.de."
+          }
+        }
+      ]
+    },
+    "AT": {
+      "name": {
+        "en": "Austria",
+        "de": "Österreich",
+        "fr": "Autriche",
+        "es": "Austria"
+      },
+      "resources": [
+        {
+          "name": {
+            "en": "Emergency services",
+            "de": "Notruf",
+            "fr": "Services d'urgence",
+            "es": "Servicios de emergencia"
+          },
+          "detail": {
+            "en": "If your life is at risk right now, call 144 (ambulance) or 112, or go to your nearest emergency department.",
+            "de": "Wenn Ihr Leben gerade in Gefahr ist, rufen Sie 144 (Rettung) oder 112 an oder gehen Sie in die nächste Notaufnahme.",
+            "fr": "Si votre vie est en danger en ce moment, appelez le 144 (ambulance) ou le 112, ou rendez-vous aux urgences les plus proches.",
+            "es": "Si su vida corre peligro ahora mismo, llame al 144 (ambulancia) o al 112, o vaya al servicio de urgencias más cercano."
+          }
+        },
+        {
+          "name": {
+            "en": "TelefonSeelsorge",
+            "de": "TelefonSeelsorge",
+            "fr": "TelefonSeelsorge",
+            "es": "TelefonSeelsorge"
+          },
+          "detail": {
+            "en": "Call 142: free, anonymous, open 24 hours a day (in German).",
+            "de": "Rufen Sie 142 an: kostenlos, anonym, rund um die Uhr erreichbar.",
+            "fr": "Appelez le 142 : gratuit, anonyme, 24 heures sur 24 (en allemand).",
+            "es": "Llame al 142: gratuito, anónimo, las 24 horas (en alemán)."
+          }
+        }
+      ]
+    },
+    "CH": {
+      "name": {
+        "en": "Switzerland",
+        "de": "Schweiz",
+        "fr": "Suisse",
+        "es": "Suiza"
+      },
+      "resources": [
+        {
+          "name": {
+            "en": "Emergency services",
+            "de": "Notruf",
+            "fr": "Services d'urgence",
+            "es": "Servicios de emergencia"
+          },
+          "detail": {
+            "en": "If your life is at risk right now, call 144 (ambulance) or 112, or go to your nearest emergency department.",
+            "de": "Wenn Ihr Leben gerade in Gefahr ist, rufen Sie 144 (Sanität) oder 112 an oder gehen Sie in die nächste Notaufnahme.",
+            "fr": "Si votre vie est en danger en ce moment, appelez le 144 (ambulance) ou le 112, ou rendez-vous aux urgences les plus proches.",
+            "es": "Si su vida corre peligro ahora mismo, llame al 144 (ambulancia) o al 112, o vaya al servicio de urgencias más cercano."
+          }
+        },
+        {
+          "name": {
+            "en": "Die Dargebotene Hand / La Main Tendue",
+            "de": "Die Dargebotene Hand",
+            "fr": "La Main Tendue",
+            "es": "Die Dargebotene Hand / La Main Tendue"
+          },
+          "detail": {
+            "en": "Call 143: anonymous, open 24 hours a day (in German, French and Italian). Chat and email at 143.ch.",
+            "de": "Rufen Sie 143 an: anonym, rund um die Uhr erreichbar. Chat und E-Mail unter 143.ch.",
+            "fr": "Appelez le 143 : anonyme, 24 heures sur 24. Chat et e-mail sur 143.ch.",
+            "es": "Llame al 143: anónimo, las 24 horas (en alemán, francés e italiano). Chat y correo en 143.ch."
+          }
+        }
+      ]
+    },
+    "FR": {
+      "name": {
+        "en": "France",
+        "de": "Frankreich",
+        "fr": "France",
+        "es": "Francia"
+      },
+      "resources": [
+        {
+          "name": {
+            "en": "Emergency services",
+            "de": "Notruf",
+            "fr": "Services d'urgence",
+            "es": "Servicios de emergencia"
+          },
+          "detail": {
+            "en": "If your life is at risk right now, call 15 (SAMU) or 112, or go to your nearest emergency department.",
+            "de": "Wenn Ihr Leben gerade in Gefahr ist, rufen Sie 15 (SAMU) oder 112 an oder gehen Sie in die nächste Notaufnahme.",
+            "fr": "Si votre vie est en danger en ce moment, appelez le 15 (SAMU) ou le 112, ou rendez-vous aux urgences les plus proches.",
+            "es": "Si su vida corre peligro ahora mismo, llame al 15 (SAMU) o al 112, o vaya al servicio de urgencias más cercano."
+          }
+        },
+        {
+          "name": {
+            "en": "3114, national suicide prevention line",
+            "de": "3114, nationale Suizidpräventions-Hotline",
+            "fr": "3114, numéro national de prévention du suicide",
+            "es": "3114, línea nacional de prevención del suicidio"
+          },
+          "detail": {
+            "en": "Call 3114: free, open 24 hours a day, every day, answered by trained health professionals (in French).",
+            "de": "Rufen Sie 3114 an: kostenlos, rund um die Uhr, jeden Tag, mit geschulten Fachkräften (auf Französisch).",
+            "fr": "Appelez le 3114 : gratuit, 24 heures sur 24 et 7 jours sur 7, avec des professionnels de santé formés.",
+            "es": "Llame al 3114: gratuito, las 24 horas, todos los días, atendido por profesionales sanitarios formados (en francés)."
+          }
+        },
+        {
+          "name": {
+            "en": "SOS Amitié",
+            "de": "SOS Amitié",
+            "fr": "SOS Amitié",
+            "es": "SOS Amitié"
+          },
+          "detail": {
+            "en": "Call 09 72 39 40 50: anonymous listening, open 24 hours a day (in French). Chat at sos-amitie.com.",
+            "de": "Rufen Sie 09 72 39 40 50 an: anonymes Zuhören, rund um die Uhr (auf Französisch). Chat unter sos-amitie.com.",
+            "fr": "Appelez le 09 72 39 40 50 : écoute anonyme, 24 heures sur 24. Chat sur sos-amitie.com.",
+            "es": "Llame al 09 72 39 40 50: escucha anónima, las 24 horas (en francés). Chat en sos-amitie.com."
+          }
+        }
+      ]
+    },
+    "ES": {
+      "name": {
+        "en": "Spain",
+        "de": "Spanien",
+        "fr": "Espagne",
+        "es": "España"
+      },
+      "resources": [
+        {
+          "name": {
+            "en": "Emergency services",
+            "de": "Notruf",
+            "fr": "Services d'urgence",
+            "es": "Servicios de emergencia"
+          },
+          "detail": {
+            "en": "If your life is at risk right now, call 112 or go to your nearest emergency department.",
+            "de": "Wenn Ihr Leben gerade in Gefahr ist, rufen Sie 112 an oder gehen Sie in die nächste Notaufnahme.",
+            "fr": "Si votre vie est en danger en ce moment, appelez le 112 ou rendez-vous aux urgences les plus proches.",
+            "es": "Si su vida corre peligro ahora mismo, llame al 112 o vaya al servicio de urgencias más cercano."
+          }
+        },
+        {
+          "name": {
+            "en": "024, suicide crisis line",
+            "de": "024, Hotline bei Suizidgedanken",
+            "fr": "024, ligne de crise suicidaire",
+            "es": "Línea 024 de atención a la conducta suicida"
+          },
+          "detail": {
+            "en": "Call 024: free, confidential, open 24 hours a day, every day (in Spanish and other languages).",
+            "de": "Rufen Sie 024 an: kostenlos, vertraulich, rund um die Uhr, jeden Tag (auf Spanisch und in weiteren Sprachen).",
+            "fr": "Appelez le 024 : gratuit, confidentiel, 24 heures sur 24 et 7 jours sur 7 (en espagnol et dans d'autres langues).",
+            "es": "Llame al 024: gratuito, confidencial, las 24 horas, todos los días."
+          }
+        },
+        {
+          "name": {
+            "en": "Teléfono de la Esperanza",
+            "de": "Teléfono de la Esperanza",
+            "fr": "Teléfono de la Esperanza",
+            "es": "Teléfono de la Esperanza"
+          },
+          "detail": {
+            "en": "Call 717 003 717: emotional support, open 24 hours a day (in Spanish).",
+            "de": "Rufen Sie 717 003 717 an: emotionale Unterstützung, rund um die Uhr (auf Spanisch).",
+            "fr": "Appelez le 717 003 717 : soutien émotionnel, 24 heures sur 24 (en espagnol).",
+            "es": "Llame al 717 003 717: apoyo emocional, las 24 horas."
+          }
+        }
+      ]
+    }
+  },
+  "default": {
+    "name": {
+      "en": "Another country",
+      "de": "Ein anderes Land",
+      "fr": "Un autre pays",
+      "es": "Otro país"
+    },
+    "resources": [
+      {
+        "name": {
+          "en": "Emergency services",
+          "de": "Notruf",
+          "fr": "Services d'urgence",
+          "es": "Servicios de emergencia"
+        },
+        "detail": {
+          "en": "If your life is at risk right now, call your local emergency number or go to your nearest emergency department.",
+          "de": "Wenn Ihr Leben gerade in Gefahr ist, rufen Sie Ihre örtliche Notrufnummer an oder gehen Sie in die nächste Notaufnahme.",
+          "fr": "Si votre vie est en danger en ce moment, appelez le numéro d'urgence local ou rendez-vous aux urgences les plus proches.",
+          "es": "Si su vida corre peligro ahora mismo, llame a su número de emergencias local o vaya al servicio de urgencias más cercano."
+        }
+      },
+      {
+        "name": {
+          "en": "Find A Helpline",
+          "de": "Find A Helpline",
+          "fr": "Find A Helpline",
+          "es": "Find A Helpline"
+        },
+        "detail": {
+          "en": "Visit findahelpline.com to find free, confidential helplines in your country (175+ countries).",
+          "de": "Auf findahelpline.com finden Sie kostenlose, vertrauliche Hilfetelefone in Ihrem Land (über 175 Länder).",
+          "fr": "Rendez-vous sur findahelpline.com pour trouver des lignes d'écoute gratuites et confidentielles dans votre pays (plus de 175 pays).",
+          "es": "Visite findahelpline.com para encontrar líneas de ayuda gratuitas y confidenciales en su país (más de 175 países)."
+        }
+      }
+    ]
+  }
+}

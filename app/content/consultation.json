@@ -1,0 +1,137 @@
+{
+  "language_names": {
+    "en": "British English",
+    "de": "German",
+    "fr": "French",
+    "es": "Spanish"
+  },
+  "language_labels": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
+  },
+  "greeting": {
+    "en": "Hello, and welcome. I'm an AI consultation assistant, working on behalf of a qualified hypnotherapy practice. I'll ask you some questions to understand what you'd like help with, so your session can be made personal to you. Please answer each question carefully and honestly: your session is built only from what you tell me, so made-up or untrue answers would stop it from helping you. There are no right or wrong answers, and you can skip anything you'd rather not talk about. Your consultation time starts with your first answer. To begin, what would you like help with, and what made you decide to look for help now?",
+    "de": "Hallo und herzlich willkommen. Ich bin ein KI-Beratungsassistent und arbeite im Auftrag einer qualifizierten Hypnotherapie-Praxis. Ich stelle Ihnen einige Fragen, um zu verstehen, wobei Sie sich Hilfe wünschen, damit Ihre Sitzung ganz persönlich auf Sie abgestimmt werden kann. Bitte beantworten Sie jede Frage sorgfältig und ehrlich: Ihre Sitzung entsteht nur aus dem, was Sie mir erzählen, und erfundene oder unwahre Antworten würden verhindern, dass sie Ihnen hilft. Es gibt keine richtigen oder falschen Antworten, und Sie können alles überspringen, worüber Sie lieber nicht sprechen möchten. Ihre Beratungszeit beginnt mit Ihrer ersten Antwort. Zu Beginn: Wobei möchten Sie Hilfe, und was hat Sie dazu bewogen, gerade jetzt Hilfe zu suchen?",
+    "fr": "Bonjour et bienvenue. Je suis un assistant de consultation basé sur l'intelligence artificielle, et je travaille pour le compte d'un cabinet d'hypnothérapie qualifié. Je vais vous poser quelques questions pour comprendre ce pour quoi vous souhaitez de l'aide, afin que votre séance soit faite pour vous. Merci de répondre à chaque question avec soin et en toute honnêteté : votre séance est construite uniquement à partir de ce que vous me dites, et des réponses inventées ou inexactes l'empêcheraient de vous aider. Il n'y a pas de bonne ou de mauvaise réponse, et vous pouvez passer tout sujet dont vous préférez ne pas parler. Le temps de votre consultation commence avec votre première réponse. Pour commencer, pour quoi souhaitez-vous de l'aide, et qu'est-ce qui vous a décidé à chercher de l'aide maintenant ?",
+    "es": "Hola, le doy la bienvenida. Soy un asistente de consulta con inteligencia artificial y trabajo en nombre de una consulta de hipnoterapia cualificada. Le haré algunas preguntas para entender en qué le gustaría recibir ayuda, para que su sesión se adapte a usted. Por favor, responda a cada pregunta con atención y sinceridad: su sesión se crea únicamente a partir de lo que usted me cuente, y unas respuestas inventadas o falsas impedirían que le ayude. No hay respuestas correctas ni incorrectas, y puede saltarse cualquier tema del que prefiera no hablar. El tiempo de su consulta empieza con su primera respuesta. Para empezar, ¿en qué le gustaría recibir ayuda, y qué le ha llevado a buscar ayuda ahora?"
+  },
+  "acknowledgements": {
+    "en": [
+      "Okay."
+    ],
+    "de": [
+      "In Ordnung."
+    ],
+    "fr": [
+      "D'accord."
+    ],
+    "es": [
+      "De acuerdo."
+    ]
+  },
+  "closing_at_limit": {
+    "en": "Thank you, that's everything I need. The next step is to choose how you'd like to have your session.",
+    "de": "Vielen Dank, das ist alles, was ich brauche. Im nächsten Schritt wählen Sie, wie Sie Ihre Sitzung erhalten möchten.",
+    "fr": "Merci, j'ai tout ce qu'il me faut. L'étape suivante consiste à choisir comment vous souhaitez recevoir votre séance.",
+    "es": "Gracias, eso es todo lo que necesito. El siguiente paso es elegir cómo le gustaría recibir su sesión."
+  },
+  "closing_too_few_answers": {
+    "en": "Thank you. We've reached the time for this consultation, but I don't yet have enough of your answers to make a session that would truly help you.",
+    "de": "Vielen Dank. Die Zeit für diese Beratung ist erreicht, aber ich habe noch nicht genug Antworten von Ihnen, um eine Sitzung zu erstellen, die Ihnen wirklich helfen würde.",
+    "fr": "Merci. Nous avons atteint la durée de cette consultation, mais je n'ai pas encore assez de réponses de votre part pour créer une séance qui vous aiderait vraiment.",
+    "es": "Gracias. Hemos llegado al final del tiempo de esta consulta, pero todavía no tengo suficientes respuestas suyas para crear una sesión que de verdad le ayude."
+  },
+  "silence_check_in": {
+    "en": "Take your time. Whenever you're ready, just start talking, or tap Type instead if you'd rather write your answer.",
+    "de": "Lassen Sie sich Zeit. Sobald Sie bereit sind, sprechen Sie einfach los, oder tippen Sie auf „Stattdessen schreiben“, wenn Sie Ihre Antwort lieber eintippen möchten.",
+    "fr": "Prenez votre temps. Dès que vous êtes prêt, commencez simplement à parler, ou appuyez sur « Écrire plutôt » si vous préférez écrire votre réponse.",
+    "es": "Tómese su tiempo. Cuando esté listo, simplemente empiece a hablar, o pulse «Escribir en su lugar» si prefiere escribir su respuesta."
+  },
+  "silence_resume": {
+    "en": "Welcome back.",
+    "de": "Willkommen zurück.",
+    "fr": "Bon retour.",
+    "es": "Bienvenido de nuevo."
+  },
+  "silence_pause": {
+    "en": "I'll pause here for now, so none of your time is used up. Press Continue whenever you're ready, and we'll carry on from where we were.",
+    "de": "Ich mache hier erst einmal eine Pause, damit nichts von Ihrer Zeit verbraucht wird. Drücken Sie auf „Weiter“, sobald Sie bereit sind, und wir machen dort weiter, wo wir aufgehört haben.",
+    "fr": "Je fais une pause ici pour l'instant, pour que votre temps ne soit pas utilisé. Appuyez sur « Continuer » dès que vous êtes prêt, et nous reprendrons là où nous en étions.",
+    "es": "Voy a hacer una pausa aquí por ahora, para que no se gaste nada de su tiempo. Pulse «Continuar» cuando esté listo y seguiremos donde lo dejamos."
+  },
+  "cancellation_acknowledgement": {
+    "en": {
+      "consultation": "I want my consultation to start straight away. I understand that I lose my 14-day right to cancel once the consultation has been completed. I confirm that my answers to the safety questions are true. I understand that if my consultation shows otherwise, no session or preview is made and my consultation fee is not refunded.",
+      "session": "I want my full session to be made and supplied to me straight away. I understand that I lose my 14-day right to cancel once its supply begins."
+    },
+    "de": {
+      "consultation": "Ich möchte, dass meine Beratung sofort beginnt. Mir ist bewusst, dass ich mein 14-tägiges Widerrufsrecht verliere, sobald die Beratung abgeschlossen ist. Ich bestätige, dass meine Antworten auf die Sicherheitsfragen der Wahrheit entsprechen. Mir ist bewusst, dass keine Sitzung und keine Vorschau erstellt und meine Beratungsgebühr nicht erstattet wird, wenn sich in der Beratung etwas anderes zeigt.",
+      "session": "Ich möchte, dass meine vollständige Sitzung sofort erstellt und mir bereitgestellt wird. Mir ist bewusst, dass ich mein 14-tägiges Widerrufsrecht verliere, sobald die Bereitstellung beginnt."
+    },
+    "fr": {
+      "consultation": "Je souhaite que ma consultation commence immédiatement. Je comprends que je perds mon droit de rétractation de 14 jours une fois la consultation terminée. Je confirme que mes réponses aux questions de sécurité sont exactes. Je comprends que si ma consultation montre le contraire, aucune séance ni aucun aperçu n'est créé et mes frais de consultation ne sont pas remboursés.",
+      "session": "Je souhaite que ma séance complète soit créée et me soit fournie immédiatement. Je comprends que je perds mon droit de rétractation de 14 jours dès que sa fourniture commence."
+    },
+    "es": {
+      "consultation": "Quiero que mi consulta empiece de inmediato. Entiendo que pierdo mi derecho de desistimiento de 14 días una vez completada la consulta. Confirmo que mis respuestas a las preguntas de seguridad son ciertas. Entiendo que, si mi consulta muestra lo contrario, no se crea ninguna sesión ni vista previa y el importe de la consulta no se reembolsa.",
+      "session": "Quiero que mi sesión completa se cree y se me entregue de inmediato. Entiendo que pierdo mi derecho de desistimiento de 14 días en cuanto empiece su entrega."
+    }
+  },
+  "concern_confirm": {
+    "en": {
+      "quoted": "Before we go on, I want to make sure I heard you correctly, as the line can sometimes mishear. Did you say {words}?",
+      "standard": "Before we go on, I want to make sure I heard you correctly, as the line can sometimes mishear. Could you tell me again, in your own words, what you just said?"
+    },
+    "de": {
+      "quoted": "Bevor wir weitermachen, möchte ich sichergehen, dass ich Sie richtig verstanden habe, denn die Verbindung verhört sich manchmal. Könnten Sie mir noch einmal mit Ihren eigenen Worten sagen, was Sie gerade gesagt haben?",
+      "standard": "Bevor wir weitermachen, möchte ich sichergehen, dass ich Sie richtig verstanden habe, denn die Verbindung verhört sich manchmal. Könnten Sie mir noch einmal mit Ihren eigenen Worten sagen, was Sie gerade gesagt haben?"
+    },
+    "fr": {
+      "quoted": "Avant de continuer, je veux m'assurer de vous avoir bien compris, car la ligne entend parfois mal. Pourriez-vous me redire, avec vos propres mots, ce que vous venez de dire ?",
+      "standard": "Avant de continuer, je veux m'assurer de vous avoir bien compris, car la ligne entend parfois mal. Pourriez-vous me redire, avec vos propres mots, ce que vous venez de dire ?"
+    },
+    "es": {
+      "quoted": "Antes de seguir, quiero asegurarme de haberle entendido bien, porque la línea a veces oye mal. ¿Podría repetirme, con sus propias palabras, lo que acaba de decir?",
+      "standard": "Antes de seguir, quiero asegurarme de haberle entendido bien, porque la línea a veces oye mal. ¿Podría repetirme, con sus propias palabras, lo que acaba de decir?"
+    }
+  },
+  "safety_check": {
+    "en": {
+      "quoted": "When you say {words}, some people mean they're exhausted and stuck, and some people have thoughts of ending their life. Can I ask, have you had any thoughts of ending your life or harming yourself?",
+      "standard": "Can I ask you something I ask anyone who feels this way: do you have any thoughts of suicide or of harming yourself?"
+    },
+    "de": {
+      "quoted": "Wenn Sie {words} sagen, meinen manche Menschen, dass sie erschöpft sind und nicht weiterkommen, und manche haben Gedanken daran, ihr Leben zu beenden. Darf ich fragen: Hatten Sie Gedanken daran, sich das Leben zu nehmen oder sich selbst zu verletzen?",
+      "standard": "Darf ich Sie etwas fragen, das ich jeden frage, der sich so fühlt: Haben Sie Gedanken an Suizid oder daran, sich selbst zu verletzen?"
+    },
+    "fr": {
+      "quoted": "Quand vous dites {words}, certaines personnes veulent dire qu'elles sont épuisées et bloquées, et d'autres ont des pensées de mettre fin à leur vie. Puis-je vous demander si vous avez eu des pensées de mettre fin à votre vie ou de vous faire du mal ?",
+      "standard": "Puis-je vous poser une question que je pose à toute personne qui ressent cela : avez-vous des pensées suicidaires ou des pensées de vous faire du mal ?"
+    },
+    "es": {
+      "quoted": "Cuando dice {words}, algunas personas quieren decir que están agotadas y atascadas, y otras tienen pensamientos de acabar con su vida. ¿Puedo preguntarle si ha tenido pensamientos de quitarse la vida o de hacerse daño?",
+      "standard": "¿Puedo preguntarle algo que pregunto a cualquier persona que se siente así? ¿Tiene pensamientos de suicidio o de hacerse daño?"
+    }
+  },
+  "payment_items": {
+    "en": {
+      "consultation": "Personal hypnotherapy consultation",
+      "session": "Full personalised AI hypnotherapy session"
+    },
+    "de": {
+      "consultation": "Persönliche Hypnotherapie-Beratung",
+      "session": "Vollständige persönliche KI-Hypnotherapie-Sitzung"
+    },
+    "fr": {
+      "consultation": "Consultation d'hypnothérapie personnelle",
+      "session": "Séance complète d'hypnothérapie IA personnalisée"
+    },
+    "es": {
+      "consultation": "Consulta personal de hipnoterapia",
+      "session": "Sesión completa y personalizada de hipnoterapia con IA"
+    }
+  },
+  "wrap_up_instruction": "The consultation is at its time limit. In this reply, thank the client warmly without recapping their answers, explain that the next step is choosing how to have their session, and set consultation_complete to true."
+}

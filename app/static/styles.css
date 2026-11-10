@@ -1,0 +1,259 @@
+:root {
+  --bg: #0a1210;
+  --surface: #101c18;
+  --surface-2: #152521;
+  --border: #22382f;
+  --text: #e4f1ec;
+  --muted: #9bb3aa;
+  --accent: #34d399;
+  --accent-strong: #10b981;
+  --accent-ink: #04130d;
+  --danger: #f87171;
+  --danger-bg: #2a1414;
+  --warning: #fbbf24;
+  --radius: 12px;
+}
+
+* { box-sizing: border-box; }
+
+/* Background on html only: a body background would be painted over the matrix-rain canvas behind the page. */
+html { background: var(--bg); }
+
+html, body {
+  margin: 0;
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.container { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+
+.topbar {
+  border-bottom: 1px solid var(--border);
+  padding: 14px 16px;
+  background: var(--surface);
+}
+.brand { color: var(--accent); font-weight: 700; letter-spacing: 0.04em; }
+
+main { padding-top: 24px; padding-bottom: 32px; min-height: 60vh; }
+.footer { color: var(--muted); font-size: 13px; padding-bottom: 24px; }
+.sign-in { max-width: 460px; }
+.robot-check { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 16px 0 4px;
+  padding: 4px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface-2); }
+.robot-check label.check { margin: 8px 0; }
+.footer .admin-link { color: var(--muted); font-size: 12px; opacity: 0.7; margin-left: 4px; }  /* the practice's sign-in */
+
+h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 12px; }
+h2 { font-size: 1.2rem; margin: 24px 0 8px; }
+p { margin: 0 0 12px; }
+.muted { color: var(--muted); }
+.small { font-size: 14px; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin: 12px 0;
+}
+.card.highlight { border-color: var(--accent-strong); }
+.card.danger { border-color: var(--danger); background: var(--danger-bg); }
+
+.notice { border-left: 3px solid var(--warning); padding: 8px 12px; background: var(--surface-2); margin: 12px 0; }
+.error { border-left: 3px solid var(--danger); padding: 8px 12px; background: var(--danger-bg); margin: 12px 0; }
+
+ol.steps { padding-left: 20px; }
+
+label { display: block; margin: 12px 0 6px; }
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="number"],
+select, textarea {
+  width: 100%;
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font: inherit;
+}
+textarea { resize: vertical; min-height: 72px; }
+input:focus, select:focus, textarea:focus, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+input[type="range"] { width: 100%; accent-color: var(--accent); }
+
+/* Keep screening controls visible in every browser and when the app is embedded in the practice website. */
+input[type="radio"], input[type="checkbox"] {
+  appearance: auto;
+  -webkit-appearance: auto;
+  accent-color: var(--accent);
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+}
+
+button, a.button {
+  display: inline-block;
+  text-decoration: none;
+  background: var(--accent);
+  color: var(--accent-ink);
+  border: 1px solid transparent; /* the same size as the outlined buttons, so buttons side by side line up */
+  border-radius: 8px;
+  padding: 11px 18px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:hover, a.button:hover { background: var(--accent-strong); }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+button.secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+button.link { background: none; color: var(--muted); padding: 6px 0; text-decoration: underline; font-weight: 400; }
+
+/* The language choice, first on the welcome page and plainly in view: a highlighted box, one big button per
+   language, the current one filled in. */
+.language-choice { margin: 8px 0 20px; padding: 14px 16px 16px; border: 1px solid var(--accent-strong); border-radius: 12px;
+  background: var(--surface); }
+.language-heading { margin: 0 0 10px; font-weight: 600; color: var(--text); line-height: 1.4; }
+.languages { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }
+.languages .language { background: transparent; color: var(--accent); border: 1px solid var(--accent-strong);
+  padding: 12px 14px; font-size: 1.05rem; font-weight: 600; }
+.languages .language:hover { border-color: var(--accent); background: transparent; }
+.languages .language.current { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+
+.question {
+  min-width: 0;
+  margin: 12px 0;
+  padding: 14px 16px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+.screen-reader-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.question-text {
+  display: block;
+  margin: 0 0 10px;
+  color: var(--text);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+.question .options { display: flex; gap: 16px; margin-top: 6px; }
+.question .options label, .consent label { display: flex; gap: 8px; align-items: flex-start; margin: 0; cursor: pointer; }
+.consent {
+  margin: 12px 0;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+label.check { display: flex; gap: 8px; align-items: flex-start; margin: 12px 0; cursor: pointer; }
+label.check input { margin-top: 5px; }
+.consent input { margin-top: 5px; }
+
+.chat { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+.bubble { max-width: 88%; padding: 10px 14px; border-radius: 14px; white-space: pre-wrap; word-wrap: break-word; }
+.bubble.assistant { background: var(--surface-2); border: 1px solid var(--border); align-self: flex-start; }
+.bubble.patient { background: var(--accent-strong); color: var(--accent-ink); align-self: flex-end; }
+.bubble .who { display: block; font-size: 12px; opacity: 0.75; margin-bottom: 2px; }
+.bubble.typing::after { content: "…"; animation: blink 1s infinite; }
+@keyframes blink { 50% { opacity: 0.2; } }
+
+.composer { display: flex; gap: 8px; align-items: flex-end; position: sticky; bottom: 0; background: var(--bg); padding: 8px 0; }
+.composer textarea { min-height: 48px; }
+
+.choices { display: grid; gap: 12px; grid-template-columns: 1fr; }
+@media (min-width: 640px) { .choices { grid-template-columns: 1fr 1fr; } }
+/* The two options side by side: their prices and buttons line up at the bottom of each card. */
+.choices .card { display: flex; flex-direction: column; margin: 0; }
+.choices .card .price { margin-top: auto; }
+.choices .card button { align-self: flex-start; }
+.price { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin: 8px 0; }
+
+.resources { list-style: none; padding: 0; }
+.resources li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.resources strong { display: block; }
+
+.script { white-space: pre-wrap; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
+.range-value { font-weight: 700; color: var(--accent); }
+.spinner { width: 28px; height: 28px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 1s linear infinite; margin: 16px 0; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.engine-notice { margin-top: 12px; padding: 8px 12px; border: 1px dashed var(--warning); border-radius: 8px; color: var(--warning); font-size: 14px; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+
+.stage { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
+.avatar-box { width: 100%; max-width: 780px; height: min(56vh, 575px); } /* the whole bust: wider than tall */
+.avatar-box canvas { width: 100%; height: 100%; display: block;
+  /* only the very bottom (where the picture ends below the shoulders) melts into the rain */
+  -webkit-mask-image: linear-gradient(to bottom, #000 90%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 90%, transparent 100%); }
+.stage-status { color: var(--accent); font-weight: 600; min-height: 1.5em; margin: 4px 0 0; }
+.question-now { max-width: 680px; margin: 6px auto 0; font-size: 1.2rem; line-height: 1.5; text-shadow: 0 0 6px #000; }
+.end-consultation { display: block; margin: 6px auto 0; font-size: 0.9rem; }
+.question-now.before-start { visibility: hidden; }
+/* The app's own "are you sure?" box, above everything else. */
+.modal-backdrop { position: fixed; inset: 0; z-index: 10000; display: flex; align-items: center; justify-content: center;
+  padding: 16px; background: rgba(0, 0, 0, 0.65); }
+.modal { width: 100%; max-width: 440px; padding: 20px; border: 1px solid var(--border); border-radius: 12px;
+  background: var(--surface); }
+.modal p { margin: 0 0 10px; line-height: 1.5; }
+.modal .modal-title { font-size: 1.15rem; font-weight: 700; }
+.modal-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+button.danger { background: #dc2626; color: #fff; }
+button.danger:hover { background: #b91c1c; }
+.question-now .unspoken { visibility: hidden; } /* the words still to be spoken keep their place */
+.caption { min-height: 1.6em; max-width: 680px; margin: 6px auto 0; color: var(--muted); font-style: italic;
+  text-shadow: 0 0 6px #000; }
+.stage-controls { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin: 8px 0 16px; }
+button.mic { border-radius: 999px; padding: 14px 28px; font-size: 1.05rem; }
+button.mic.active { animation: mic-pulse 1.6s ease-in-out infinite; }
+@keyframes mic-pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.55); } 50% { box-shadow: 0 0 0 12px rgba(52, 211, 153, 0); } }
+.timer { width: 100%; max-width: 560px; display: flex; flex-direction: column; gap: 4px; font-size: 14px; color: var(--muted); }
+.timer-bar { height: 4px; border-radius: 2px; background: var(--surface-2); overflow: hidden; }
+.timer-fill { height: 100%; width: 0; background: var(--accent); transition: width 1s linear; }
+.progress { height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; margin-top: 8px; }
+.progress-fill { height: 100%; width: 0; background: var(--accent); transition: width 1s linear; }
+audio { width: 100%; margin-top: 8px; }
+.transcript { margin-top: 12px; }
+
+/* The consultation fills the screen, like a video call: the timer at the top, the avatar in the space that is left,
+   and the question, any message, the typing box and the buttons always in view, also on a small phone and with the
+   keyboard open. The conversation so far and the page's footer are below it. */
+body.in-consultation .topbar { display: none; }
+body.in-consultation main { padding-top: 0; }
+.question-now { position: relative; } /* the reference for keeping the spoken words in view */
+body.in-consultation .stage {
+  height: 100vh;
+  height: 100dvh;
+  padding: 10px 0 calc(6px + env(safe-area-inset-bottom));
+  gap: 4px;
+  overflow-anchor: none;
+}
+body.in-consultation .stage > * { flex: 0 0 auto; }
+body.in-consultation .avatar-box { flex: 1 1 auto; height: auto; min-height: 110px; max-height: 575px; }
+/* The question and the client's words keep a fixed size, so the avatar above never grows or shrinks as words come and
+   go (a long question scrolls in its box; the client's words show their latest two lines). */
+body.in-consultation .question-now { height: 24vh; height: 24dvh; overflow-y: auto; overscroll-behavior: contain;
+  scrollbar-width: thin; }
+body.in-consultation .caption { height: 3.2em; min-height: 0; overflow: hidden; display: flex; flex-direction: column;
+  justify-content: flex-end; }
+body.in-consultation .stage .notice, body.in-consultation .stage .error { margin: 4px 0; width: 100%; text-align: left; }
+body.in-consultation .stage .composer { width: 100%; margin: 4px 0; }
+body.in-consultation .stage-controls { margin: 6px 0 4px; }
+html.embedded body.in-consultation .timer { padding-right: 52px; } /* clear of the website's close button */
+@media (max-width: 480px), (max-height: 700px) {
+  body.in-consultation .question-now { font-size: 1.05rem; line-height: 1.45; }
+  body.in-consultation button.mic { padding: 12px 22px; }
+}
+.transcript .chat { max-height: 45vh; overflow-y: auto; padding-right: 4px; }
+.bubble .replay { background: none; color: inherit; border: 0; padding: 2px 6px; margin-left: 6px; font-size: 12px; opacity: 0.6; }
+.bubble .replay:hover { opacity: 1; background: none; }
+details > summary { cursor: pointer; margin: 12px 0; }
+.rain-bg { position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: -1; opacity: 0.45; display: block; }
+.hidden { display: none !important; }
