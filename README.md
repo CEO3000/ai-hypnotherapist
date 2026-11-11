@@ -47,11 +47,6 @@ More in [docs/SAFETY_AND_PRIVACY.md](docs/SAFETY_AND_PRIVACY.md).
 ## Honest limitations
 
 - It has not been clinically validated, makes no claim about outcomes, and is not a medical device.
-- Clinician review of each script is a switch (`REQUIRE_CLINICIAN_REVIEW`), and it is off in the sample configuration.
-- The browser client (about 4,400 lines of JavaScript) has no automated tests of its own yet. Its fixes were checked by hand in browsers and on phones.
-- Knowledge retrieval is keyword search (BM25) over curated notes, not embeddings.
-- Consultations and sessions are available in English, German, French and Spanish, while the qualified hypnotherapist is offered in English only.
-- The practice voice is a real person's recorded voice, used with their consent and read by a local model.
 
 ## Repository layout
 
